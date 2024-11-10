@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Organization</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+      
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+      }
+      header {
+        background-color: #4d3d57;
+        padding: 15px 0;
+        text-align: center;
+      }
+      header nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      header nav ul li {
+        display: inline;
+      }
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        transition: color 0.3s;
+      }
+      header nav ul li a:hover {
+        color: #ffd700;
+      }
+      .section {
+        padding: 40px 0;
+      }
+      #contact {
+        background-color: #f4f4f9;
+        text-align: center;
+      }
+      #contact h2 {
+        color: #4d3d57;
+        margin-bottom: 20px;
+      }
+      #contact form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #contact form input,
+      #contact form textarea {
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+      }
+      #contact form button {
+        padding: 10px 20px;
+        background-color: #4d3d57;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      #contact form button:hover {
+        background-color: #63184b;
+      }
+      .footer {
+        background-color: #4d3d57;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      .footer-item {
+        margin-top: 10px;
+      }
+    </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="getinvolved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+<div class="footer">
+  <div class="container footer-item">
+    <h3>Contact</h3>
+    <p>Email: info@hope-hub.org</p>
+    <p>Phone: +123 856 2967</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

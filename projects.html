@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Projects - Charity Website</title>
+  <link rel="stylesheet" href="nav.css">
+</head>
+<style>
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e1c8d9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2em;
+  background-color: #9f739b;
+  color: rgb(62, 8, 48);
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-info h2 {
+  font-size: 1.5em;
+  color: #894c84;
+  margin-bottom: 0.5em;
+}
+
+.project-info p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 1em;
+}
+
+.donate-button {
+  text-decoration: none;
+  padding: 0.8em 1.5em;
+  background-color: #b50f94;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.donate-button:hover {
+  background-color: #835986;
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+              <img src="logo.png" alt="Hope-Hub Logo" class="logo-img"> 
+                <h1>HOPE-HUB   <span> The trusted charitable  organisation</span></h1>
+            </div><br>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h1>Our Projects</h1>
+        <p>Explore the projects we're working on to make a difference.</p>
+    </section>
+
+    
+    <section class="projects">
+        
+        <div class="project">
+            <img src="images6.jpg" alt="Project 1 Image">
+            <div class="project-info">
+                <h2>Clean Water Initiative</h2>
+                <p>Providing clean and safe water to communities in need.</p>
+                <a href="form.html" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+        
+
+        <div class="project">
+            <img src="image 7.jpg" alt="Project 2 Image">
+            <div class="project-info">
+                <h2>Education for All</h2>
+                <p>Supporting access to education for underprivileged children.</p>
+                <a href="form.html" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="image19.jpg" alt="Project 3 Image">
+            <div class="project-info">
+                <h2>Women Empowerment</h2>
+                <p>Empowering women to rise, thrive, and lead—our mission is to provide education, resources, and opportunities that uplift women, transforming lives and communities.</p>
+                <a href="form.html" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="image20.jpg" alt="Project 4 Image">
+            <div class="project-info">
+                <h2>NGO Construction</h2>
+                <p>Providing resources, education, and support to foster sustainable change and brighter futures.</p>
+                <a href="form.html" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="image21.jpg" alt="Project 5 Image">
+            <div class="project-info">
+                <h2>Providing Food & Clothing</h2>
+                <p>Bringing hope to those in need with essential clothing and nutritious food, ensuring dignity, warmth, and nourishment for a healthier tomorrow.</p>
+                <a href="form.html" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

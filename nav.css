@@ -1,0 +1,364 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #dbcad5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+header {
+    background-color: #eed7e7;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #f8f8f8; 
+}
+
+
+.logo h1 {
+    font-size: 24px;
+    color: rgb(52, 2, 52);
+}
+
+.logo h1 span {
+    color: #6b0865f6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(163, 48, 87);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #da6dea;
+}
+
+.donate-button a {
+    background-color: #6a1162;
+    color: rgb(246, 248, 239);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate-button a:hover {
+    background-color: #7e3b6c;
+}
+
+.hero {
+    background-image: url("IMG_20241020_173402.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: rgb(49, 39, 48);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: rgb(55, 5, 49);
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #6e2272;
+    color: rgb(248, 237, 247);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #90427f;
+}
+
+
+.about-us {
+    padding: 50px 0;
+    text-align: center;
+    border: 2px solid;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #d265d6;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.impact-stories {
+    padding: 50px 0;
+    background-color: #dfaeed78;
+}
+
+.story-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.story-item {
+    background-color: rgba(170, 151, 165, 0.701);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 02px 5px rgb(0, 0, 0, 0.1);
+    flex: 1;
+    border: 2px solid grey;
+    
+}
+.story-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.story-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.donate-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(188, 159, 196);
+    color: rgb(127, 12, 106);
+}
+.testimonial {
+    background:rgb(111, 84, 111);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 600px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #b04ec8, #8f94fb);
+    color: white;
+    text-align: center;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  .slide-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 2s 1s forwards;
+  }
+  
+  .scroll-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+.mission-section, .impact-section, .values-section, .faq-section {
+    background-color: #c0a2bd;
+    border-radius: 8px;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.mission-section p, .impact-section p, .values-section ul {
+    margin-bottom: 1rem;
+}
+
+ .gallery-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #f3def4;
+}
+
+.gallery-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.gallery-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+} 
+
+follow-us {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.follow-us p {
+    font-size: 1.2em;
+    color: rgb(30, 0, 31);
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
